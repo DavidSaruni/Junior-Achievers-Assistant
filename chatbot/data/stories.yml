@@ -1,0 +1,72 @@
+# version: "3.1"
+
+# stories:
+#   - story: get started
+#     steps:
+#       - intent: welcome
+#       - action: utter_welcome
+#       - action: utter_ask_rephrase
+#       - intent: fast_facts
+#       - action: utter_fast_facts
+#       - action: utter_ask_rephrase
+#       - intent: blood_drop
+#       - action: utter_blood_drop
+#       - action: utter_ask_rephrase
+#       - intent: blood_centers_tanzania
+#       - action: utter_blood_centers_tanzania
+#       - action: utter_ask_rephrase
+#       - intent: thank
+#       - action: utter_thank
+#       - action: utter_ask_rephrase
+#       - intent: goodbye
+#       - action: utter_goodbye
+#       - action: utter_ask_rephrase
+#       - intent: affirm
+#       - action: utter_affirm
+#       - action: utter_ask_rephrase
+#       - intent: deny
+#       - action: utter_deny
+#       - action: utter_ask_rephrase
+#       - intent: greet
+#       - action: utter_greet
+#       - action: utter_ask_rephrase
+#       - intent: goodbye
+#       - action: utter_goodbye
+#       - action: utter_ask_rephrase
+#       - intent: fast_facts
+#       - action: utter_fast_facts
+#       - action: utter_ask_rephrase
+#       - intent: blood_drop
+#       - action: utter_blood_drop
+#       - action: utter_ask_rephrase
+#       - intent: blood_centers_tanzania
+#       - action: utter_blood_centers_tanzania
+#       - action: utter_ask_rephrase
+#       - intent: thank
+#       - action: utter_thank
+#       - action: utter_ask_rephrase
+#       - intent: goodbye
+#       - action: utter_goodbye
+#       - action: utter_ask_rephrase
+#       - intent: affirm
+#       - action: utter_affirm
+#       - action: utter_ask_rephrase
+#       - intent: deny
+#       - action: utter_deny
+#       - action: utter_ask_rephrase
+#       - intent: greet
+#       - action: utter_greet
+#       - action: utter_ask_rephrase
+#       - intent: goodbye
+#       - action: utter_goodbye
+#       - action: utter_ask_rephrase
+#       - intent: fast_facts
+#       - action: utter_fast_facts
+#       - action: utter_ask_rephrase
+
+#   - story: say goodbye
+#     steps:
+#       - intent: goodbye
+#       - action: utter_goodbye
+#       - action: utter_ask_rephrase
+    

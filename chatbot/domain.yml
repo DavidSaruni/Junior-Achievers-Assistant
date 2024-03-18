@@ -1,0 +1,189 @@
+version: "3.1"
+
+intents:
+  - welcome
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - about_jak
+  - jak_founding_date
+  - jak_mission
+  - jak_mission_achievement
+  - jak_target_age_group
+  - jak_key_programs
+  - jak_our_community_benefit
+  - jak_company_program
+  - schools_involvement_with_jak
+  - urban_schools_availability
+  - program_delivery
+  - individual_volunteering
+  - skills_from_programs
+  - business_collaboration
+  - impact_on_academic_performance
+  - youth_unemployment
+  - global_affiliation
+  - curriculum_alignment
+  - business_partnership
+  - alumni_involvement
+  - program_success_measurement
+  - mentor_role
+  - gender_equality_approach
+  - parent_involvement
+  - education_landscape_adaptation
+  - educator_training
+  - government_engagement
+  - student_business_showcase
+  - career_path_exploration
+  - public_support
+  - sustainable_development_stance
+  - covid_19_adaptation
+  - non_profit_collaboration
+  - creativity_innovation_encouragement
+  - after_school_accessibility
+  - local_context_relevance
+  - free_programs_availability
+  - financial_literacy_role
+  - diverse_needs_addressing
+  - alumni_connection
+  - program_customization
+  - social_responsibility_promotion
+  - digital_divide_addressing
+  - educator_support
+  - certification_recognition
+  - private_sector_collaboration
+  - student_success_stories
+  - cultural_diversity_respect
+  - parent_resources
+  - information_access
+
+  - thank
+
+actions:
+  - action_llm_generate_response_common
+  - action_llm_rephrase_response_common
+  - action_llm_rephrase_response_welcome
+  - action_llm_generate_response_fast_facts
+  - action_llm_rephrase_response_goodbye
+
+responses:
+  utter_welcome:
+  - text: "Hello! Welcome to the BloodyBuddy. How may I assist you today?"
+
+  utter_greet:
+  - text: "Hello again!. How may I assist you?
+           things you can do: ask for, ask prices of products"
+
+  utter_goodbye:
+  - text: "Hey there! I'm BloodyBuddy, your friendly blood donation assistant."
+  - text: "My mission is all about blood donation—helping save lives one donation at a time!"
+
+  utter_about_jak:
+    - text: "Junior Achievement Kenya is a non-profit organization that focuses on empowering young people with the skills and knowledge to succeed in a global economy."
+  utter_jak_founding_date:
+    - text: "Junior Achievement Kenya was founded in 2000 in Nairobi, Kenya."
+  utter_jak_mission:
+    - text: "The mission of Junior Achievement Kenya is to inspire and prepare young people to succeed in a global economy."
+  utter_jak_mission_achievement:
+    - text: "Junior Achievement Kenya achieves its mission by providing practical, hands-on programs that teach financial literacy, entrepreneurship, and work readiness."
+  utter_jak_target_age_group:
+    - text: "Junior Achievement Kenya primarily targets young people in schools, ranging from primary to secondary levels to tertiary levels of education."
+  utter_jak_key_programs:
+    - text: "Junior Achievement Kenya offers programs such as Social Innovation Relay, JA Company Program, University Innovation Challenge, Cha-Ching Financial Literacy Program, and JA Job Shadow Program. JA In A Day, JA Digital Programs, JA Work Readiness Programs, and JA Economics for Success."
+  utter_jak_our_community_benefit:
+    - text: "JA Our Community helps students understand the role of economic exchange in their daily lives and how businesses operate."
+  utter_jak_company_program:
+    - text: "The JA Company Program allows students to form and run their own companies, gaining practical experience in entrepreneurship."
+  utter_schools_involvement_with_jak:
+    - text: "Schools can get involved by contacting Junior Achievement Kenya and expressing their interest in implementing JA programs."
+  utter_urban_schools_availability:
+    - text: "No, Junior Achievement programs are designed to be implemented in both urban and rural schools across Kenya."
+  utter_program_delivery:
+    - text: "Junior Achievement programs are typically delivered through partnerships with schools, educators, and volunteers."
+  utter_individual_volunteering:
+    - text: "Yes, individuals can volunteer with Junior Achievement Kenya to mentor and guide students through the various programs."
+  utter_skills_from_programs:
+    - text: "Students gain skills such as financial literacy, critical thinking, problem-solving, and entrepreneurship skills."
+  utter_business_collaboration:
+    - text: "Junior Achievement Kenya collaborates with businesses through sponsorship, volunteerism, and partnerships to enhance program delivery."
+  utter_impact_on_academic_performance:
+    - text: "Studies have shown that students who participate in Junior Achievement programs often demonstrate improved academic performance."
+  utter_youth_unemployment:
+    - text: "Junior Achievement Kenya addresses youth unemployment by equipping students with practical skills and fostering an entrepreneurial mindset."
+  utter_global_affiliation:
+    - text: "Yes, Junior Achievement Kenya is part of Junior Achievement Worldwide, a global organization operating in over 120 countries."
+  utter_curriculum_alignment:
+    - text: "Yes, Junior Achievement programs are designed to complement the Kenyan education curriculum."
+  utter_business_partnership:
+    - text: "Businesses can partner with Junior Achievement Kenya by providing financial support, volunteering, or sponsoring specific programs."
+  utter_alumni_involvement:
+    - text: "Yes, students can continue their involvement by joining alumni networks and participating in advanced programs offered by Junior Achievement."
+  utter_program_success_measurement:
+    - text: "Junior Achievement Kenya measures success through program evaluations, feedback from educators, and tracking the achievements of program alumni."
+  utter_mentor_role:
+    - text: "Mentors play a crucial role in guiding and supporting students as they navigate through the various programs, sharing their real-world experiences."
+  utter_gender_equality_approach:
+    - text: "Junior Achievement Kenya is committed to promoting gender equality by ensuring that programs are inclusive and accessible to all students."
+  utter_parent_involvement:
+    - text: "Yes, parents can get involved by supporting their children's participation, volunteering, or providing insights into their own professional experiences."
+  utter_education_landscape_adaptation:
+    - text: "Junior Achievement Kenya continually reviews and updates its programs to align with changes in the education landscape and the evolving needs of young people."
+  utter_educator_training:
+    - text: "Yes, Junior Achievement Kenya provides training for educators to effectively implement and facilitate the programs in schools."
+  utter_government_engagement:
+    - text: "Junior Achievement Kenya collaborates with the government by advocating for the integration of entrepreneurship and financial literacy education into the national curriculum."
+  utter_student_business_showcase:
+    - text: "Yes, Junior Achievement Kenya often organizes events where students can showcase and present their businesses to the community and potential investors."
+  utter_career_path_exploration:
+    - text: "Junior Achievement Kenya exposes students to a range of industries and professions through its programs, helping them make informed decisions about their future careers."
+  utter_public_support:
+    - text: "The public can support Junior Achievement Kenya by volunteering, providing financial support, and advocating for the importance of youth entrepreneurship and financial literacy education."
+  utter_sustainable_development_stance:
+    - text: "Junior Achievement Kenya is committed to promoting sustainable development by fostering skills that empower young people to contribute positively to society."
+  utter_covid_19_adaptation:
+    - text: "Junior Achievement Kenya has adapted by incorporating virtual learning components, online resources, and remote mentorship to ensure continuity during the pandemic."
+  utter_non_profit_collaboration:
+    - text: "Yes, Junior Achievement Kenya collaborates with other non-profit organizations to leverage resources and enhance the impact of its programs."
+  utter_creativity_innovation_encouragement:
+    - text: "Junior Achievement Kenya incorporates interactive and hands-on activities in its programs, fostering creativity and innovation among students."
+  utter_after_school_accessibility:
+    - text: "Junior Achievement Kenya provides flexibility, and in some cases, students can access programs outside of regular school hours through workshops and events."
+  utter_local_context_relevance:
+    - text: "Junior Achievement Kenya actively involves local professionals and industry experts in program development to ensure relevance to the Kenyan context."
+  utter_free_programs_availability:
+    - text: "The availability of free programs depends on funding and partnerships. Junior Achievement Kenya strives to make programs as accessible as possible."
+  utter_financial_literacy_role:
+    - text: "Financial literacy is a core component of Junior Achievement programs, empowering students with the knowledge to make informed financial decisions."
+  utter_diverse_needs_addressing:
+    - text: "Junior Achievement Kenya designs programs that are inclusive and adaptable, taking into consideration the diverse needs of students across various backgrounds."
+  utter_alumni_connection:
+    - text: "Former students can stay connected through alumni networks, events, and by participating in mentorship programs."
+  utter_program_customization:
+    - text: "Yes, Junior Achievement Kenya works with schools to tailor programs to meet specific educational needs and objectives."
+  utter_social_responsibility_promotion:
+    - text: "Junior Achievement Kenya integrates lessons on social responsibility, ethics, and community engagement into its programs."
+  utter_digital_divide_addressing:
+    - text: "Junior Achievement Kenya explores innovative ways to bridge the digital divide, ensuring that programs are accessible to students regardless of their access to technology."
+  utter_educator_support:
+    - text: "Junior Achievement Kenya provides training, resources, and ongoing support to educators to ensure effective program delivery."
+  utter_certification_recognition:
+    - text: "Some Junior Achievement programs offer certifications or recognition to students upon completion, adding value to their academic and personal achievements."
+  utter_private_sector_collaboration:
+    - text: "Junior Achievement Kenya collaborates with the private sector by engaging businesses in program delivery, sponsorship, and mentorship initiatives."
+  utter_student_success_stories:
+    - text: "Yes, Junior Achievement Kenya regularly shares success stories and case studies highlighting the positive impact of its programs on students' lives."
+  utter_cultural_diversity_respect:
+    - text: "Junior Achievement Kenya respects and celebrates cultural diversity, incorporating culturally relevant examples and perspectives into its programs."
+  utter_parent_resources:
+    - text: "Yes, Junior Achievement Kenya offers resources and materials for parents to actively support their children's learning and engagement with the programs."
+  utter_information_access:
+    - text: "Individuals can visit the official Junior Achievement Kenya website, follow our social media channels, or contact their offices directly for more information."
+  utter_thank:
+  - text: "Anytime!"
+
+  utter_ask_rephrase:
+  - text: "I'm sorry am still running in limited data, I didn't quite get that. Can you please rephrase the question?"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

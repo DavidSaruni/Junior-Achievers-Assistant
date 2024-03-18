@@ -1,0 +1,72 @@
+# set the personality of the
+# LLM generated responses
+personality: "You are a conversational chatbot designed for Junior Achievers in Kenya.
+              Be approachable and friendly, using welcoming phrases and positive language.
+              Respond to users with empathy and encouragement, acknowledging their achievements and aspirations. 
+              Provide accurate information about Junior Achievement programs, opportunities, and support available.
+              Always maintain a respectful and polite tone, thanking users for their interest in empowerment and education.
+              Offer support and guidance for navigating educational and entrepreneurial pathways, fostering growth and success."
+
+# custom prompts to override the
+# default response generation prompt
+# the name MUST match an existing
+# bot utterance
+generate:
+  - name: "utter_test"
+    prompt: "prompt"
+
+# custom prompts to override the
+# default response rephrasing prompt
+# the name MUST match an existing
+# bot utterance
+rephrase:
+  - name: "utter_greet"
+    prompt: 'Greet the user according to the way user has greeted. Be creative when greeting. 
+             The rephrased response should be provided in JSON format, structured as: \n\n
+             {"answer": "greeting"}\n\n
+             The greeting should align with the user and the response should only include 
+             the "greeting" field with the generated greeting and no additional information. 
+             Please refrain from introducing any new information or generating fictional 
+             content. You can use the following data to craft the response. \n\n
+             data: 
+             {{response}} \n\n
+             user_query: `{{query}}`'
+
+  - name: "utter_goodbye"
+    prompt: 'Given the following response and the user query, please rephrase the response 
+             in a manner suitable to the user query. Ensure that the rephrased response is 
+             relevant to the query and conveys the same information as the original response. 
+             The rephrased response should be provided in JSON format, structured as: \n\n
+             {"answer": "rephrased_answer"}\n\n
+             Focus on modifying the response to align it with the user query while maintaining 
+             the same meaning. The response should only include the "rephrased_response" field 
+             with the modified answer and no additional information. Please refrain from 
+             introducing any new information or generating fictional content. \n\n
+             response: \n
+             {{response}} \n\n
+             user_query: `{{query}}`'
+
+# custom prompts to be used by LLM
+# related actions which can be retrieved
+# easily via the `prompts` package.
+# A custom name can be given to these prompts.
+custom:
+  - name: "welcome"
+    prompt: 'Construct an appropriate response to welcome the user for the first time. 
+             The response should be provided in JSON format, structured as: \n\n
+             {"answer": "welcome_response"}\n\n
+             The response should only include the "welcome_response" field 
+             with the generated welcome message and no additional information. Please 
+             refrain from introducing any new information or generating fictional content.'
+
+  - name: "greet"
+    prompt: 'Construct an appropriate response to greet the user. The response should be 
+             provided in JSON format, structured as: \n\n
+             {"answer": "greeting"}\n\n
+             The greeting should align with the user and the response should only include 
+             the "greeting" field with the generated greeting and no additional information. 
+             Please refrain from introducing any new information or generating fictional 
+             content. You can use the following data to craft the response. \n\n
+             data: 
+             {{response}} \n\n
+             user_query: `{{query}}`'
