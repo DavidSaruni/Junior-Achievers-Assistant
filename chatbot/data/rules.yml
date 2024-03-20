@@ -1,33 +1,278 @@
-version: "3.1"
+# version: "3.1"
 
-rules:
-- rule: get started
-  conversation_start: true
-  steps:
-  - intent: welcome
-  - action: action_llm_rephrase_response_welcome
+# rules:
+#   - rule: Respond to greeting
+#     steps:
+#       - intent: greet
+#       - action: utter_greet
 
-- rule: greet the user
-  steps:
-  - intent: greet
-  - action: action_llm_rephrase_response_common
+#   - rule: Respond to goodbye
+#     steps:
+#       - intent: goodbye
+#       - action: utter_goodbye
 
-- rule: say goodbye
-  steps:
-  - intent: goodbye
-  - action: action_llm_rephrase_response_common
+#   - rule: Respond to affirmative statements
+#     steps:
+#       - intent: affirm
+#       - action: utter_affirm
 
-- rule: say anytime
-  steps:
-  - intent: thank
-  - action: action_llm_rephrase_response_common
+#   - rule: Respond to negative statements
+#     steps:
+#       - intent: deny
+#       - action: utter_deny
 
-- rule: affirm
-  steps:
-  - intent: affirm
-  - action: action_llm_rephrase_response_common
+#   - rule: Respond to inquiry about Junior Achievement Kenya
+#     steps:
+#       - intent: about_jak
+#       - action: utter_about_jak
 
-- rule: deny
-  steps:
-  - intent: deny
-  - action: action_llm_rephrase_response_common
+#   - rule: Respond to inquiry about Junior Achievement Kenya's founding date
+#     steps:
+#       - intent: jak_founding_date
+#       - action: utter_jak_founding_date
+
+#   - rule: Respond to inquiry about Junior Achievement Kenya's mission
+#     steps:
+#       - intent: jak_mission
+#       - action: utter_jak_mission
+
+#   - rule: Respond to inquiry about how Junior Achievement Kenya achieves its mission
+#     steps:
+#       - intent: jak_mission_achievement
+#       - action: utter_jak_mission_achievement
+
+#   - rule: Respond to inquiry about target age group
+#     steps:
+#       - intent: jak_target_age_group
+#       - action: utter_jak_target_age_group
+
+#   - rule: Respond to inquiry about key programs
+#     steps:
+#       - intent: jak_key_programs
+#       - action: utter_jak_key_programs
+
+#   - rule: Respond to inquiry about JA Our Community benefit
+#     steps:
+#       - intent: jak_our_community_benefit
+#       - action: utter_jak_our_community_benefit
+
+#   - rule: Respond to inquiry about JA Company Program
+#     steps:
+#       - intent: jak_company_program
+#       - action: utter_jak_company_program
+
+#   - rule: Respond to inquiry about schools involvement with Junior Achievement Kenya
+#     steps:
+#       - intent: schools_involvement_with_jak
+#       - action: utter_schools_involvement_with_jak
+
+#   - rule: Respond to inquiry about availability of Junior Achievement programs in urban schools
+#     steps:
+#       - intent: urban_schools_availability
+#       - action: utter_urban_schools_availability
+
+#   - rule: Respond to inquiry about program delivery methods
+#     steps:
+#       - intent: program_delivery
+#       - action: utter_program_delivery
+
+#   - rule: Respond to inquiry about individual volunteering opportunities
+#     steps:
+#       - intent: individual_volunteering
+#       - action: utter_individual_volunteering
+
+#   - rule: Respond to inquiry about skills gained from programs
+#     steps:
+#       - intent: skills_from_programs
+#       - action: utter_skills_from_programs
+
+#   - rule: Respond to inquiry about business collaboration
+#     steps:
+#       - intent: business_collaboration
+#       - action: utter_business_collaboration
+
+#   - rule: Respond to inquiry about impact on academic performance
+#     steps:
+#       - intent: impact_on_academic_performance
+#       - action: utter_impact_on_academic_performance
+
+#   - rule: Respond to inquiry about addressing youth unemployment
+#     steps:
+#       - intent: youth_unemployment
+#       - action: utter_youth_unemployment
+
+#   - rule: Respond to inquiry about global affiliation
+#     steps:
+#       - intent: global_affiliation
+#       - action: utter_global_affiliation
+
+#   - rule: Respond to inquiry about curriculum alignment
+#     steps:
+#       - intent: curriculum_alignment
+#       - action: utter_curriculum_alignment
+
+#   - rule: Respond to inquiry about business partnership
+#     steps:
+#       - intent: business_partnership
+#       - action: utter_business_partnership
+
+#   - rule: Respond to inquiry about alumni involvement
+#     steps:
+#       - intent: alumni_involvement
+#       - action: utter_alumni_involvement
+
+#   - rule: Respond to inquiry about program success measurement
+#     steps:
+#       - intent: program_success_measurement
+#       - action: utter_program_success_measurement
+
+#   - rule: Respond to inquiry about mentor role
+#     steps:
+#       - intent: mentor_role
+#       - action: utter_mentor_role
+
+#   - rule: Respond to inquiry about gender equality approach
+#     steps:
+#       - intent: gender_equality_approach
+#       - action: utter_gender_equality_approach
+
+#   - rule: Respond to inquiry about parent involvement
+#     steps:
+#       - intent: parent_involvement
+#       - action: utter_parent_involvement
+
+#   - rule: Respond to inquiry about education landscape adaptation
+#     steps:
+#       - intent: education_landscape_adaptation
+#       - action: utter_education_landscape_adaptation
+
+#   - rule: Respond to inquiry about educator training
+#     steps:
+#       - intent: educator_training
+#       - action: utter_educator_training
+
+#   - rule: Respond to inquiry about government engagement
+#     steps:
+#       - intent: government_engagement
+#       - action: utter_government_engagement
+
+#   - rule: Respond to inquiry about student business showcase
+#     steps:
+#       - intent: student_business_showcase
+#       - action: utter_student_business_showcase
+
+#   - rule: Respond to inquiry about career path exploration
+#     steps:
+#       - intent: career_path_exploration
+#       - action: utter_career_path_exploration
+
+#   - rule: Respond to inquiry about public support
+#     steps:
+#       - intent: public_support
+#       - action: utter_public_support
+
+#   - rule: Respond to inquiry about sustainable development stance
+#     steps:
+#       - intent: sustainable_development_stance
+#       - action: utter_sustainable_development_stance
+
+#   - rule: Respond to inquiry about COVID-19 adaptation
+#     steps:
+#       - intent: covid_19_adaptation
+#       - action: utter_covid_19_adaptation
+
+#   - rule: Respond to inquiry about non-profit collaboration
+#     steps:
+#       - intent: non_profit_collaboration
+#       - action: utter_non_profit_collaboration
+
+#   - rule: Respond to inquiry about creativity and innovation encouragement
+#     steps:
+#       - intent: creativity_innovation_encouragement
+#       - action: utter_creativity_innovation_encouragement
+
+#   - rule: Respond to inquiry about after-school accessibility
+#     steps:
+#       - intent: after_school_accessibility
+#       - action: utter_after_school_accessibility
+
+#   - rule: Respond to inquiry about local context relevance
+#     steps:
+#       - intent: local_context_relevance
+#       - action: utter_local_context_relevance
+
+#   - rule: Respond to inquiry about free programs availability
+#     steps:
+#       - intent: free_programs_availability
+#       - action: utter_free_programs_availability
+
+#   - rule: Respond to inquiry about financial literacy role
+#     steps:
+#       - intent: financial_literacy_role
+#       - action: utter_financial_literacy_role
+
+#   - rule: Respond to inquiry about addressing diverse needs
+#     steps:
+#       - intent: diverse_needs_addressing
+#       - action: utter_diverse_needs_addressing
+
+#   - rule: Respond to inquiry about alumni connection
+#     steps:
+#       - intent: alumni_connection
+#       - action: utter_alumni_connection
+
+#   - rule: Respond to inquiry about program customization
+#     steps:
+#       - intent: program_customization
+#       - action: utter_program_customization
+
+#   - rule: Respond to inquiry about promoting social responsibility
+#     steps:
+#       - intent: social_responsibility_promotion
+#       - action: utter_social_responsibility_promotion
+
+#   - rule: Respond to inquiry about addressing the digital divide
+#     steps:
+#       - intent: digital_divide_addressing
+#       - action: utter_digital_divide_addressing
+
+#   - rule: Respond to inquiry about educator support
+#     steps:
+#       - intent: educator_support
+#       - action: utter_educator_support
+
+#   - rule: Respond to inquiry about certification and recognition
+#     steps:
+#       - intent: certification_recognition
+#       - action: utter_certification_recognition
+
+#   - rule: Respond to inquiry about private sector collaboration
+#     steps:
+#       - intent: private_sector_collaboration
+#       - action: utter_private_sector_collaboration
+
+#   - rule: Respond to inquiry about student success stories
+#     steps:
+#       - intent: student_success_stories
+#       - action: utter_student_success_stories
+
+#   - rule: Respond to inquiry about cultural diversity and respect
+#     steps:
+#       - intent: cultural_diversity_respect
+#       - action: utter_cultural_diversity_respect
+
+#   - rule: Respond to inquiry about parent resources
+#     steps:
+#       - intent: parent_resources
+#       - action: utter_parent_resources
+
+#   - rule: Respond to inquiry about information access
+#     steps:
+#       - intent: information_access
+#       - action: utter_information_access
+
+#   - rule: Respond to gratitude
+#     steps:
+#       - intent: thank
+#       - action: utter_thank
+

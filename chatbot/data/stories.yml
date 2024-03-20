@@ -2,12 +2,10 @@ stories:
   - story: User greets
     steps:
       - intent: greet
-      - action: action_llm_rephrase_response_common
+      - action: utter_greet
 
   - story: User wants to know about Junior Achievement Kenya
     steps:
-      - intent: welcome
-      - action: action_llm_rephrase_response_welcome
       - intent: about_jak
       - action: utter_about_jak
 
@@ -35,4 +33,4 @@ stories:
   - story: User says goodbye
     steps:
       - intent: goodbye
-      - action: action_llm_rephrase_response_common
+      - action: utter_goodbye
