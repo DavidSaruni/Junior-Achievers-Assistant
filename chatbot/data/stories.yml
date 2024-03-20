@@ -1,72 +1,38 @@
-# version: "3.1"
+stories:
+  - story: User greets
+    steps:
+      - intent: greet
+      - action: action_llm_rephrase_response_common
 
-# stories:
-#   - story: get started
-#     steps:
-#       - intent: welcome
-#       - action: utter_welcome
-#       - action: utter_ask_rephrase
-#       - intent: fast_facts
-#       - action: utter_fast_facts
-#       - action: utter_ask_rephrase
-#       - intent: blood_drop
-#       - action: utter_blood_drop
-#       - action: utter_ask_rephrase
-#       - intent: blood_centers_tanzania
-#       - action: utter_blood_centers_tanzania
-#       - action: utter_ask_rephrase
-#       - intent: thank
-#       - action: utter_thank
-#       - action: utter_ask_rephrase
-#       - intent: goodbye
-#       - action: utter_goodbye
-#       - action: utter_ask_rephrase
-#       - intent: affirm
-#       - action: utter_affirm
-#       - action: utter_ask_rephrase
-#       - intent: deny
-#       - action: utter_deny
-#       - action: utter_ask_rephrase
-#       - intent: greet
-#       - action: utter_greet
-#       - action: utter_ask_rephrase
-#       - intent: goodbye
-#       - action: utter_goodbye
-#       - action: utter_ask_rephrase
-#       - intent: fast_facts
-#       - action: utter_fast_facts
-#       - action: utter_ask_rephrase
-#       - intent: blood_drop
-#       - action: utter_blood_drop
-#       - action: utter_ask_rephrase
-#       - intent: blood_centers_tanzania
-#       - action: utter_blood_centers_tanzania
-#       - action: utter_ask_rephrase
-#       - intent: thank
-#       - action: utter_thank
-#       - action: utter_ask_rephrase
-#       - intent: goodbye
-#       - action: utter_goodbye
-#       - action: utter_ask_rephrase
-#       - intent: affirm
-#       - action: utter_affirm
-#       - action: utter_ask_rephrase
-#       - intent: deny
-#       - action: utter_deny
-#       - action: utter_ask_rephrase
-#       - intent: greet
-#       - action: utter_greet
-#       - action: utter_ask_rephrase
-#       - intent: goodbye
-#       - action: utter_goodbye
-#       - action: utter_ask_rephrase
-#       - intent: fast_facts
-#       - action: utter_fast_facts
-#       - action: utter_ask_rephrase
+  - story: User wants to know about Junior Achievement Kenya
+    steps:
+      - intent: welcome
+      - action: action_llm_rephrase_response_welcome
+      - intent: about_jak
+      - action: utter_about_jak
 
-#   - story: say goodbye
-#     steps:
-#       - intent: goodbye
-#       - action: utter_goodbye
-#       - action: utter_ask_rephrase
-    
+  - story: User asks for the founding date of Junior Achievement Kenya
+    steps:
+      - intent: jak_founding_date
+      - action: utter_jak_founding_date
+
+  - story: User asks about Junior Achievement Kenya's mission
+    steps:
+      - intent: jak_mission_achievement
+      - action: utter_jak_mission_achievement
+
+  - story: User wants to know about the key programs offered by Junior Achievement Kenya
+    steps:
+      - intent: jak_key_programs
+      - action: utter_jak_key_programs
+
+  - story: User asks for information
+    steps:
+      - intent: information_access
+      - action: utter_information_access
+
+
+  - story: User says goodbye
+    steps:
+      - intent: goodbye
+      - action: action_llm_rephrase_response_common
