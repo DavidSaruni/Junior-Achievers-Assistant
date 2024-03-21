@@ -1,0 +1,357 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+
+- intent: goodbye  
+  examples: |
+    - Can you tell me more about your company
+    - What's your company's name
+    - Provide information about your company.
+    - what you do 
+
+
+- intent: affirm
+  examples: |
+    - yes
+    - yeah
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: about_jak
+  examples: |
+    - What is Junior Achievement Kenya (JAK)?
+    - Can you tell me about Junior Achievement Kenya?
+    - What does Junior Achievement Kenya do?
+    - Explain Junior Achievement Kenya.
+
+- intent: jak_founding_date
+  examples: |
+    - When was Junior Achievement Kenya founded?
+    - What year was Junior Achievement Kenya established?
+    - When did Junior Achievement Kenya start?
+
+- intent: jak_mission
+  examples: |
+    - What is the mission of Junior Achievement Kenya?
+    - What does Junior Achievement Kenya aim to achieve?
+    - Explain the mission of Junior Achievement Kenya.
+
+- intent: jak_mission_achievement
+  examples: |
+    - How does Junior Achievement Kenya achieve its mission?
+    - What does Junior Achievement Kenya do to fulfill its mission?
+    - Explain how Junior Achievement Kenya accomplishes its mission.
+
+- intent: jak_target_age_group
+  examples: |
+    - What age group does Junior Achievement Kenya target?
+    - Who are the programs of Junior Achievement Kenya designed for?
+    - What age range does Junior Achievement Kenya focus on?
+
+- intent: jak_key_programs
+  examples: |
+    - What are the key programs offered by Junior Achievement Kenya?
+    - Can you list some of the programs provided by Junior Achievement Kenya?
+    - Explain the main programs of Junior Achievement Kenya.
+
+- intent: jak_our_community_benefit
+  examples: |
+    - How does JA Our Community benefit students?
+    - What is the purpose of JA Our Community program?
+    - Explain the advantages of participating in JA Our Community.
+
+- intent: jak_company_program
+  examples: |
+    - What is the JA Company Program?
+    - Can you explain how the JA Company Program works?
+    - Describe the JA Company Program.
+
+- intent: schools_involvement_with_jak
+  examples: |
+    - How can schools get involved with Junior Achievement Kenya?
+    - What is the process for schools to participate in Junior Achievement Kenya programs?
+    - Explain how schools can engage with Junior Achievement Kenya.
+
+- intent: urban_schools_availability
+  examples: |
+    - Are Junior Achievement programs only for urban schools?
+    - Do Junior Achievement programs cater exclusively to urban areas?
+    - Are Junior Achievement programs accessible to schools outside urban areas?
+
+- intent: program_delivery
+  examples: |
+    - How are Junior Achievement programs delivered?
+    - What methods are used to implement Junior Achievement programs?
+    - Explain the delivery process of Junior Achievement programs.
+
+- intent: individual_volunteering
+  examples: |
+    - Can individuals volunteer with Junior Achievement Kenya?
+    - How can I volunteer with Junior Achievement Kenya?
+    - Is there an opportunity for individuals to get involved as volunteers?
+
+- intent: skills_from_programs
+  examples: |
+    - What skills do students gain from participating in Junior Achievement programs?
+    - Can you list the skills developed through Junior Achievement programs?
+    - Explain the skills acquired by students in Junior Achievement programs.
+
+- intent: business_collaboration
+  examples: |
+    - How does Junior Achievement Kenya collaborate with businesses?
+    - In what ways do businesses work together with Junior Achievement Kenya?
+    - Explain the partnership between Junior Achievement Kenya and businesses.
+
+- intent: impact_on_academic_performance
+  examples: |
+    - What is the impact of Junior Achievement programs on students' academic performance?
+    - Do Junior Achievement programs influence students' academic results?
+    - How do Junior Achievement programs affect students' grades?
+
+- intent: youth_unemployment
+  examples: |
+    - How does Junior Achievement Kenya address issues of youth unemployment?
+    - What actions does Junior Achievement Kenya take to tackle youth unemployment?
+    - Explain how Junior Achievement Kenya helps combat youth unemployment.
+
+- intent: global_affiliation
+  examples: |
+    - Is Junior Achievement Kenya affiliated with a global organization?
+    - Does Junior Achievement Kenya have connections with an international body?
+    - What is Junior Achievement Kenya's relationship with a global organization?
+
+- intent: curriculum_alignment
+  examples: |
+    - Are Junior Achievement programs aligned with the Kenyan education curriculum?
+    - Do Junior Achievement programs match the national curriculum of Kenya?
+    - How do Junior Achievement programs correlate with the Kenyan education system?
+
+- intent: business_partnership
+  examples: |
+    - How can businesses partner with Junior Achievement Kenya?
+    - What opportunities exist for businesses to collaborate with Junior Achievement Kenya?
+    - Explain how businesses can engage in partnerships with Junior Achievement Kenya.
+
+- intent: alumni_involvement
+  examples: |
+    - Can students continue their involvement with Junior Achievement after completing the programs?
+    - Is there a way for former participants to stay connected with Junior Achievement Kenya?
+    - How do students maintain their association with Junior Achievement after finishing the programs?
+
+- intent: program_success_measurement
+  examples: |
+    - How does Junior Achievement Kenya measure the success of its programs?
+    - What criteria does Junior Achievement Kenya use to evaluate program effectiveness?
+    - Explain the metrics used by Junior Achievement Kenya to assess program success.
+
+- intent: mentor_role
+  examples: |
+    - What is the role of mentors in Junior Achievement programs?
+    - How do mentors contribute to Junior Achievement programs?
+    - Explain the responsibilities of mentors in Junior Achievement programs.
+
+- intent: gender_equality_approach
+  examples: |
+    - How does Junior Achievement Kenya address gender equality in its programs?
+    - What steps does Junior Achievement Kenya take to promote gender equality?
+    - Explain Junior Achievement Kenya's approach to ensuring gender equality in programs.
+
+- intent: parent_involvement
+  examples: |
+    - Can parents get involved with Junior Achievement programs?
+    - How can parents support Junior Achievement activities?
+    - Is there a role for parents in participating in Junior Achievement programs?
+
+- intent: education_landscape_adaptation
+  examples: |
+    - How does Junior Achievement Kenya adapt to changes in the education landscape?
+    - What measures does Junior Achievement Kenya take to respond to changes in education?
+    - Explain how Junior Achievement Kenya adjusts to developments in the education sector.
+
+- intent: educator_training
+  examples: |
+    - Does Junior Achievement Kenya offer training for educators?
+    - Are there training sessions available for teachers interested in Junior Achievement programs?
+    - How do educators receive training to implement Junior Achievement programs?
+
+- intent: government_engagement
+  examples: |
+    - How does Junior Achievement Kenya engage with the government?
+    - What is Junior Achievement Kenya's interaction with government authorities?
+    - Explain how Junior Achievement Kenya collaborates with the government.
+
+- intent: student_business_showcase
+  examples: |
+    - Are there opportunities for students to showcase their businesses created through Junior Achievement programs?
+    - Can students present their business ideas from Junior Achievement programs to others?
+    - How do students exhibit their entrepreneurial ventures from Junior Achievement programs?
+
+- intent: career_path_exploration
+  examples: |
+    - How does Junior Achievement Kenya support students in exploring various career paths?
+    - What initiatives does Junior Achievement Kenya offer to help students discover career options?
+    - Explain how Junior Achievement Kenya assists students in career exploration.
+
+- intent: public_support
+  examples: |
+    - How can the public support Junior Achievement Kenya's mission?
+    - What can individuals do to help Junior Achievement Kenya?
+    - How do people contribute to Junior Achievement Kenya's goals?
+
+- intent: sustainable_development_stance
+  examples: |
+    - What is Junior Achievement Kenya's stance on sustainable development?
+    - How does Junior Achievement Kenya contribute to sustainable development?
+    - Explain Junior Achievement Kenya's position on sustainable development.
+
+- intent: covid_19_adaptation
+  examples: |
+    - How has Junior Achievement Kenya adapted to the challenges posed by the COVID-19 pandemic?
+    - What changes has Junior Achievement Kenya made in response to the COVID-19 pandemic?
+    - Explain how Junior Achievement Kenya has adjusted during the COVID-19 pandemic.
+
+- intent: non_profit_collaboration
+  examples: |
+    - Does Junior Achievement Kenya collaborate with other non-profit organizations?
+    - Are there partnerships between Junior Achievement Kenya and other non-profits?
+    - Explain Junior Achievement Kenya's collaboration with non-profit organizations.
+
+- intent: creativity_innovation_encouragement
+  examples: |
+    - How does Junior Achievement Kenya encourage creativity and innovation among students?
+    - What strategies does Junior Achievement Kenya use to foster creativity and innovation?
+    - Explain how Junior Achievement Kenya promotes creativity and innovation.
+
+- intent: after_school_accessibility
+  examples: |
+    - Can students access Junior Achievement programs outside of regular school hours?
+    - Are there programs available from Junior Achievement after school?
+    - How do students participate in Junior Achievement programs outside of school hours?
+
+- intent: local_context_relevance
+  examples: |
+    - How does Junior Achievement Kenya ensure the relevance of its programs to the local context?
+    - What steps does Junior Achievement Kenya take to make its programs suitable for the Kenyan context?
+    - Explain how Junior Achievement Kenya aligns its programs with the local environment.
+
+- intent: free_programs_availability
+  examples: |
+    - Are Junior Achievement programs free for students?
+    - Do students need to pay to participate in Junior Achievement programs?
+    - How accessible are Junior Achievement programs in terms of cost?
+
+- intent: financial_literacy_role
+  examples: |
+    - What role does financial literacy play in Junior Achievement programs?
+    - How important is financial literacy in Junior Achievement programs?
+    - Explain the significance of financial literacy in Junior Achievement programs.
+
+- intent: diverse_needs_addressing
+  examples: |
+    - How does Junior Achievement Kenya address the diverse needs of students from different backgrounds?
+    - What efforts does Junior Achievement Kenya make to accommodate students from diverse backgrounds?
+    - Explain how Junior Achievement Kenya supports students with various needs.
+
+- intent: alumni_connection
+  examples: |
+    - How can former students stay connected with Junior Achievement Kenya after completing the programs?
+    - Is there a way for program alumni to maintain ties with Junior Achievement Kenya?
+    - Explain how former participants remain engaged with Junior Achievement Kenya.
+
+- intent: program_customization
+  examples: |
+    - Can Junior Achievement programs be customized for specific school needs?
+    - Are there options to tailor Junior Achievement programs to individual schools?
+    - Explain how Junior Achievement programs can be adapted to meet specific requirements.
+
+- intent: social_responsibility_promotion
+  examples: |
+    - How does Junior Achievement Kenya inspire a sense of social responsibility among students?
+    - What does Junior Achievement Kenya do to encourage social responsibility among participants?
+    - Explain Junior Achievement Kenya's approach to promoting social responsibility.
+
+- intent: digital_divide_addressing
+  examples: |
+    - How does Junior Achievement Kenya address the digital divide in education?
+    - What measures does Junior Achievement Kenya take to bridge the digital gap in education?
+    - Explain how Junior Achievement Kenya tackles issues related to the digital divide.
+
+- intent: educator_support
+  examples: |
+    - What support does Junior Achievement Kenya offer to educators implementing its programs?
+    - How does Junior Achievement Kenya assist educators in program implementation?
+    - Explain the resources available to educators from Junior Achievement Kenya.
+
+- intent: certification_recognition
+  examples: |
+    - Can students earn certifications or recognition through Junior Achievement programs?
+    - Do Junior Achievement programs provide certificates to participants?
+    - Explain the certification process in Junior Achievement programs.
+
+- intent: private_sector_collaboration
+  examples: |
+    - How does Junior Achievement Kenya collaborate with the private sector?
+    - What role do businesses play in Junior Achievement Kenya's initiatives?
+    - Explain the involvement of the private sector in Junior Achievement Kenya.
+
+- intent: student_success_stories
+  examples: |
+    - Are there success stories or case studies from students who have participated in Junior Achievement programs?
+    - Can you share examples of students who have benefited from Junior Achievement programs?
+    - Explain the impact of Junior Achievement programs through student success stories.
+
+- intent: cultural_diversity_respect
+  examples: |
+    - How does Junior Achievement Kenya address the cultural diversity of students in Kenya?
+    - What steps does Junior Achievement Kenya take to respect cultural diversity?
+    - Explain Junior Achievement Kenya's approach to cultural inclusivity.
+
+- intent: parent_resources
+  examples: |
+    - Does Junior Achievement Kenya provide resources for parents to support their children's learning?
+    - Are there materials available for parents to assist their children with Junior Achievement programs?
+    - Explain the resources offered to parents by Junior Achievement Kenya.
+
+- intent: information_access
+  examples: |
+    - How can interested individuals get more information about Junior Achievement Kenya?
+    - Where can I find additional details about Junior Achievement Kenya?
+    - Explain how individuals can access information about Junior Achievement Kenya.
+
+
+- intent: thank
+  examples: |
+    - thank you
+    - thanks
+    - thank you so much
+    - ty
+    - thank
+    - accept my gratitude

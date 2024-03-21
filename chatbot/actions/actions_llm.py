@@ -19,7 +19,7 @@ DEFAULT_REPHRASE_RESPONSE = os.environ.get(
 logger = logging.getLogger(__name__)
 
 # Set your OpenAI API key
-openai.api_key = ""
+openai.api_key = "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"
 
 # Rest of your code...
 
@@ -255,7 +255,7 @@ class ActionLLMGenerateResponseFastFacts(Action):
     """
 
     def name(self) -> Text:
-        return "action_llm_generate_response_menu"
+        return "action_llm_generate_response_fast_facts"
 
     async def run(
         self,
@@ -274,16 +274,16 @@ class ActionLLMGenerateResponseFastFacts(Action):
 
         # get utter_menu response
         response = select_a_responses(
-            domain=domain, name="utter_fast_facts", channel=input_channel
+            domain=domain, name="utter_about_jak", channel=input_channel
         )
         if not response:
             dispatcher.utter_message(template=DEFAULT_REPHRASE_RESPONSE)
-            logger.info(f"Could not retrieve `utter_menu`")
+            logger.info(f"Could not retrieve `utter_jak_mission`")
             return []
 
         llm = OpenAI()
         prompt = OpenAIPrompts.get_generate_prompt(
-            template="utter_fast_facts",
+            template="utter_about_jak",
             query=latest_query,
             context=response,
             configure_personality=True,

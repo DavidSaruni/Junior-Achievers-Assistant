@@ -68,15 +68,13 @@ actions:
 
 responses:
   utter_welcome:
-  - text: "Hello! Welcome to the BloodyBuddy. How may I assist you today?"
+  - text: "Hello! Welcome to the JA. How may I assist you today?"
 
   utter_greet:
-  - text: "Hello again!. How may I assist you?
-           things you can do: ask for, ask prices of products"
+  - text: "Hello again!. How may I assist you? "
 
   utter_goodbye:
-  - text: "Hey there! I'm BloodyBuddy, your friendly blood donation assistant."
-  - text: "My mission is all about blood donation—helping save lives one donation at a time!"
+  - text: "Hey there! I'm JA Virtual assusistant."
 
   utter_about_jak:
     - text: "Junior Achievement Kenya is a non-profit organization that focuses on empowering young people with the skills and knowledge to succeed in a global economy."
