@@ -56,7 +56,6 @@ intents:
   - cultural_diversity_respect
   - parent_resources
   - information_access
-
   - thank
 
 actions:
@@ -68,13 +67,20 @@ actions:
 
 responses:
   utter_welcome:
-  - text: "Hello! Welcome to the JA. How may I assist you today?"
+  - text: "Hello! Welcome to the JA Kenya. How may I assist you today?"
 
   utter_greet:
-  - text: "Hello again!. How may I assist you? "
+  - text: "Hello again!. How may I assist you?"
 
   utter_goodbye:
-  - text: "Hey there! I'm JA Virtual assusistant."
+  - text: "Goodbye! Have a great day."
+
+  utter_affirm:
+  - text: "Great!"
+
+  utter_deny:
+  - text: "I understand."
+
 
   utter_about_jak:
     - text: "Junior Achievement Kenya is a non-profit organization that focuses on empowering young people with the skills and knowledge to succeed in a global economy."

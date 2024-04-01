@@ -18,6 +18,11 @@ stories:
 
   - story: User asks about Junior Achievement Kenya's mission
     steps:
+      - intent: jak_mission
+      - action: utter_jak_mission
+
+  - story: User asks how Junior Achievement Kenya achieves its mission
+    steps:
       - intent: jak_mission_achievement
       - action: utter_jak_mission_achievement
 
@@ -26,14 +31,238 @@ stories:
       - intent: jak_key_programs
       - action: utter_jak_key_programs
 
+  - story: User asks about the targeted age group
+    steps:
+      - intent: jak_target_age_group
+      - action: utter_jak_target_age_group
+
+  - story: User wants to know how jak helps the community
+    steps:
+      - intent: jak_our_community_benefit
+      - action: utter_jak_our_community_benefit
+
+  - story: User asks about company program
+    steps:
+      - intent: jak_company_program
+      - action: utter_jak_company_program
+
+  - story: User wants to know how schools are involved with jak
+    steps:
+      - intent: schools_involvement_with_jak
+      - action: utter_schools_involvement_with_jak
+
+  - story: User wants to know the regions jak operates in
+    steps:
+      - intent: urban_schools_availability
+      - action: utter_urban_schools_availability
+
+  - story: User asks about jak program delivery
+    steps:
+      - intent: program_delivery
+      - action: utter_program_delivery
+
+  - story: User asks about volunteering with jak
+    steps:
+      - intent: individual_volunteering
+      - action: utter_individual_volunteering
+
+  - story: User asks about the skills accured from the jak programs
+    steps:
+      - intent: skills_from_programs
+      - action: utter_skills_from_programs
+
+  - story: User asks if businesses can work with jak
+    steps:
+      - intent: business_collaboration
+      - action: utter_business_collaboration
+
+  - story: User asks about the impact of the jak programs on academic performance
+    steps:
+      - intent: impact_on_academic_performance
+      - action: utter_impact_on_academic_performance
+
+  - story: User asks how jak adddresses youth unemployment
+    steps:
+      - intent: youth_unemployment
+      - action: utter_youth_unemployment
+
+  - story: User asks if jak is connected to JA worldwide or any other global organizations
+    steps:
+      - intent: global_affiliation
+      - action: utter_global_affiliation
+
+  - story: User asks if jak fits into the school curriculum
+    steps:
+      - intent: curriculum_alignment
+      - action: utter_curriculum_alignment
+
+  - story: USre asks how business can work with jak
+    steps: 
+      - intent: business_partnership
+      - action: utter_business_partnership
+
+  - story: User asks if jak alumni have any interaction with jak after school
+    steps:
+      - intent: alumni_involvement
+      - action: utter_alumni_involvement
+
+  - story: User asks how jak measures their program success
+    steps:
+      - intent: program_success_measurement
+      - action: utter_program_success_measurement
+
+  - story: User wants to know the role of mentors in jak
+    steps:
+      - intent: mentor_role
+      - action: utter_mentor_role
+
+  - story: User wants to know how jak ensures gender equality
+    steps:
+      - intent: gender_equality_approach
+      - action: utter_gender_equality_approach
+
+  - story: User asks how to get involved as a parent
+    steps:
+      - intent: parent_involvement
+      - action: utter_parent_involvement
+
+  - story: User asks how jak adapts to the changes in the education landscape
+    steps:
+      - intent: education_landscape_adaptation
+      - action: utter_education_landscape_adaptation
+
+  - story: User asks if jak trains educators/ teachers
+    steps:
+      - intent: educator_training
+      - action: utter_educator_training
+
+  - story: User asks about the governments involvement in jak
+    steps:
+      - intent: government_engagement
+      - action: utter_government_engagement
+
+  - story: User asks if students get a chance to showcase the businesses they create while in the jak program
+    steps:
+      - intent: student_business_showcase
+      - action: utter_student_business_showcase
+
+  - story: User asks how jak helps students through their career exploration
+    steps:
+      - intent: career_path_exploration
+      - action: utter_career_path_exploration
+
+  - story: User askshow the public can support jak
+    steps:
+      - intent: public_support
+      - action: utter_public_support
+
+  - story: User asks about jak's stance on sustainable development
+    steps:
+      - intent: sustainable_development_stance
+      - action: utter_sustainable_development_stance
+  
+  - story: User asks how jak adapted to the challenges of the covid 19 pandemic
+    steps:
+      - intent: covid_19_adaptation
+      - action: utter_covid_19_adaptation
+
+  - story: User asks if jak partners with other non-profit organisations
+    steps:
+      - intent: non_profit_collaboration
+      - action: utter_non_profit_collaboration
+
+  - story: User asks if jak encourages creativity and innovation amongst students
+    steps:
+      - intent: creativity_innovation_encouragement
+      - action: utter_creativity_innovation_encouragement
+
+  - story: User asks if students can access jak programs outside regular school hours
+    steps:
+      - intent: after_school_accessibility
+      - action: utter_after_school_accessibility
+
+  - story: user asks how jak ensures it's programs remain relevant in a local context
+    steps:
+      - intent: local_context_relevance
+      - action: utter_local_context_relevance
+
+  - story: User wants to know if jak has any free programs available
+    steps:
+      - intent: free_programs_availability
+      - action: utter_free_programs_availability
+
+  - story: User asks about the importance of the financial literacy program
+    steps:
+      - intent: financial_literacy_role
+      - action: utter_financial_literacy_role
+
+  - story: User asks how jak addresses the diverse needs of its students
+    steps:
+      - intent: diverse_needs_addressing
+      - action: utter_diverse_needs_addressing
+
+  - story: User asks for more info on the alumni program
+    steps:
+      - intent: alumni_connection
+      - action: utter_alumni_connection
+
+  - story: User asks if jak's programs can be customized to fit a schools needs
+    steps:
+      - intent: program_customization
+      - action: utter_program_customization
+
+  - story: User asks about jak's approch to social responsibility
+    steps:
+      - intent: social_responsibility_promotion
+      - action: utter_social_responsibility_promotion
+
+  - story: User asks how jak bridges the digital/ technological/ tech gap in their educating of students
+    steps:
+      - intent: digital_divide_addressing
+      - action: utter_digital_divide_addressing
+  
+  - story: User wants to know how jak supports educators/ schools in their programs
+    steps:
+      - intent: educator_support
+      - action: utter_educator_support
+
+  - story: User asks how students are recognized for their participation in jak's programs
+    steps:
+      - intent: certification_recognition
+      - action: utter_certification_recognition
+
+  - story: User asks how jak works with the private sector/ businesses in the delivery of their programs
+    steps:
+      - intent: private_sector_collaboration
+      - action: utter_private_sector_collaboration
+
+  - story: User asks about jak's success stories
+    steps:
+      - intent: student_success_stories
+      - action: utter_student_success_stories
+
+  - story: User wants to  know how jak addresses cultural diversity
+    steps:
+      - intent: cultural_diversity_respect
+      - action: utter_cultural_diversity_respect
+
+  - story: User wants to know if jak provides resources to parents
+    steps:
+      - intent: parent_resources
+      - action: utter_parent_resources
+
+  
   - story: User asks for information
     steps:
       - intent: information_access
       - action: utter_information_access
 
+  - story: User says thanks for your help
+    steps:
+      - intent: thank
+      - action: utter_thank
 
   - story: User says goodbye
     steps:
       - intent: goodbye
       - action: utter_goodbye
-

@@ -1,0 +1,27 @@
+{
+  "lookup": {
+    "eJyLrq6NBQAEOAGx": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohKzE7viSxKD21JD4xPTU+vSi/tKC2NhYAtKYhog==": "utter_jak_target_age_group",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohKzE7viSxKD21JD4xPTU+vSi/tKCWgJGlJSWpRfFYdRJpfiwASUpG7g==": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taS2NhYA6dwbhQ==": "utter_greet",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpbhMiAUAQvc0lw==": "action_listen",
+    "eJwtisEJgDAMAFfJAE7QVURCKYFGayJNrI/S3S3o7+64tY8F+lWpYUzOKgH6ByjxpAC/FDYnme9tVOfDMtUDWMqqxZClaWl0zogPe8Y9HmNsL9ZqJS8=": "utter_schools_involvement_with_jak",
+    "eJyVjVEKgCAQRK+yB+gEXiViEVlwy9bQ1T7EuyfUd9HfvOExM7c+QTsSVbROOYqBdgcUu5OBBwJnJRluyZSGwzJQDWTnYwwZWWoMlfZR4snqcbVb/5guqpTwdeHn33IBwLBRlQ==": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohPT8/JakytbY2FgAh+hxX": "utter_goodbye",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohPT8/JakytZaAKaUlJalF8TDFuE2JBQCMqTcN": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohKzE7Pju1Mr6gKD+9KDG3uLY2FgAyTSAW": "utter_jak_key_programs",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohKzE7Pju1Mr6gKD+9KDG3uJaAcaUlJalF8Ri6iDA3FgAU7kJK": "action_listen",
+    "eJwtytEJgDAMANFVMoATdBWRUEuEqE0kTQUp3d2C/t2Dm1ufoF1GN8bkrBKgfYESMwX4cXJxkvHWQjYelkEPsMcDtRomzbkK+4MrCW3svS8vZawj2Q==": "utter_jak_our_community_benefit",
+    "eJyVjdEJgDAMRFfpAE7QVURCLRGiNpU0EaS4uwX9FfHvHry76+vZuboJ7hCiUmbv6h2AQ0LvHlipKHJzraA0h7ihejeHBbIJxJySMekBIzJOpOfHrqmiwHv9z9NwAdL1TZM=": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohMy8tvyg3EawmMTk5tbi4tjYWAHQ+IOU=": "utter_information_access",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohMy8tvyg3EawmMTk5tbi4loCBpSUlqUXxWPQRZXYsALE+RLc=": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohKzE7Pjk/tyAxrzK+oCg/vSgxt7Y2FgCUgyFR": "utter_jak_company_program",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohKzE7Pjk/tyAxrzK+oCg/vSgxt5aAiaUlJalF8dg0Emd6LACDREX7": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohKzE7PjezuBikJjE5IzO1LDUXKFFbGwsAHPEi7Q==": "utter_jak_mission_achievement",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohKzE7PjezuBikJjE5IzO1LDUXKFFLwNTSkpLUonhcmom3JRYA71JKzw==": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3BCidlF9aEp+VmF1bGwsAW0UdHg==": "utter_about_jak",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3BCidlF9aEp+VmF1LwJzSkpLUoniEcnwmxQIA35A5Yg==": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohKzE7Pi2/NC8lMy89PiWxJLW2NhYAUa4gWg==": "utter_jak_founding_date",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohKzE7Pi2/NC8lMy89PiWxJLWWgHmlJSWpRfGY2ogxORYAy7xDFg==": "action_listen"
+  }
+}
